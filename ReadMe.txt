@@ -1,3 +1,6 @@
+Uses apple's squarecam example to detect faces, extracts facial features such as height and width per frame, compares changing width or height to predict if the person is moving closer or farther from camera
+
+Dependencies for getting SqaureCam example to run: 
 ### SquareCam ###
 
 ===========================================================================
@@ -35,4 +38,4 @@ AVCaptureVideoPreviewLayer
 CoreImage
 CIFaceDetector
 ===========================================================================
-Copyright (C) 2011 Apple Inc. All rights reserved.
+Link : https://developer.apple.com/library/ios/samplecode/SquareCam/Introduction/Intro.html
