@@ -1,4 +1,9 @@
-Uses apple's squarecam example to detect faces, extracts facial features such as height and width per frame, compares changing width or height to predict if the person is moving closer or farther from camera
+Uses apple's squarecam example to detect faces. 
+
+Modifications done: 
+Facial features such as height and width are extracted from detected faces, changing width or height is compared between frames to predict if the person is moving closer or farther from camera. This is an attempt to get estimates of moving person by using only face detection. 
+
+Outstanding Problems: Data received is repreentative of the motion of the person but noisy. Rolling average or Kalaman filter needed to smoothen out data toget better predictions. 
 
 Dependencies for getting SqaureCam example to run: 
 ### SquareCam ###
